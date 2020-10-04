@@ -1,3 +1,18 @@
+# NIMIQ: HOW TO
+
+Create a dir, then:
+
+```bash
+$ nvm install stable
+$ npx create-next-app --example blog-starter .
+$ node -v > .nvmrc
+$ npm run dev
+```
+
+---
+
+# ORIGINAL README
+
 # A statically generated blog example using Next.js and Markdown
 
 This example showcases Next.js's [Static Generation](https://nextjs.org/docs/basic-features/pages) feature using markdown files as the data source.
@@ -18,19 +33,19 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 
 ### Related examples
 
-- [WordPress](/examples/cms-wordpress)
-- [DatoCMS](/examples/cms-datocms)
-- [Sanity](/examples/cms-sanity)
-- [TakeShape](/examples/cms-takeshape)
-- [Prismic](/examples/cms-prismic)
-- [Contentful](/examples/cms-contentful)
-- [Strapi](/examples/cms-strapi)
-- [Agility CMS](/examples/cms-agilitycms)
-- [Cosmic](/examples/cms-cosmic)
-- [ButterCMS](/examples/cms-buttercms)
-- [Storyblok](/examples/cms-storyblok)
-- [GraphCMS](/examples/cms-graphcms)
-- [Kontent](/examples/cms-kontent)
+-   [WordPress](/examples/cms-wordpress)
+-   [DatoCMS](/examples/cms-datocms)
+-   [Sanity](/examples/cms-sanity)
+-   [TakeShape](/examples/cms-takeshape)
+-   [Prismic](/examples/cms-prismic)
+-   [Contentful](/examples/cms-contentful)
+-   [Strapi](/examples/cms-strapi)
+-   [Agility CMS](/examples/cms-agilitycms)
+-   [Cosmic](/examples/cms-cosmic)
+-   [ButterCMS](/examples/cms-buttercms)
+-   [Storyblok](/examples/cms-storyblok)
+-   [GraphCMS](/examples/cms-graphcms)
+-   [Kontent](/examples/cms-kontent)
 
 ## How to use
 
