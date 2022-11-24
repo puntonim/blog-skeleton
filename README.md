@@ -1,5 +1,18 @@
 # NIMIQ: HOW TO
 
+## Install and run this project
+
+```bash
+$ nvm use
+$ npm i
+# To run Netlify-CMS integrated with the local git:
+$ npm run cmslocal
+# Run Next:
+# npm run dev
+```
+
+## Create a basic project out of the official example:
+
 Create a dir, then:
 
 ```bash

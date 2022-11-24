@@ -2,8 +2,9 @@ backend:
     name: git-gateway
     #name: test-repo
     branch: master
+local_backend: true
 media_folder: public/images
-public_folder: images
+public_folder: /images
 collections:
     - name: "meta"
       label: "Meta"
@@ -102,3 +103,10 @@ collections:
           - label: "Body"
             name: "body"
             widget: "markdown"
+          - label: "Cover Image"
+            name: "coverImage"
+            widget: "image"
+            # default: "/uploads/chocolate-dogecoin.jpg"
+            # media_library:
+            #     config:
+            #         multiple: true
